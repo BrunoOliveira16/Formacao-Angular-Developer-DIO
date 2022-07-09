@@ -1,0 +1,14 @@
+input, button {
+    display: block;
+    margin: 20px;
+    font-size: 1rem;
+    width: 13%;
+}
+
+#resultado {
+    margin: 20px;
+    font-size: 1.5rem;
+    width: 13%;
+    background-color: grey;
+    color: white;
+}
