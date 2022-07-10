@@ -1,5 +1,5 @@
 # JavaScript-Academico
-Repositorio para estudos e resolução de exercicios academicos
+Repositorio para estudos e resolução de exercicios academicos relacionados a aplicação da linguagem JavaScript e utilização de HTML e CSS.
 
 # Javascript
 - Estado do JS (https://2020.stateofjs.com/en-US/technologies/)
