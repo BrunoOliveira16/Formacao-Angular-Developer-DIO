@@ -60,3 +60,8 @@ button p {
     line-height: 2rem !important;
 }
 
+#exibicao {
+    background-color: rgb(8, 107, 8);
+    border-radius: 20px;
+    border: 2px solid white;
+}
