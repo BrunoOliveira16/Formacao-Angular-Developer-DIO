@@ -27,3 +27,36 @@ function MediaNota(){
     
     document.getElementById("exibicao").innerHTML = "Media: " + media + " - " + resultado;
 }
+
+// Script para cálculo de média com estrutura de repetição //
+
+var alunos =  [
+    [6, 7, 8, 7]
+    [5, 6, 8, 5]
+    [10, 9, 10, 10]
+    [8, 7, 9, 9]
+]
+
+var nota = 0
+
+for (var i = 0; i = alunos.length; i++){
+
+    nota = 0
+    notasAluno = alunos[i]
+    console.log("Aluno: " + parseInt(i+1));
+    console.log("Nota: " + notasAluno);
+
+    for(c = 0; c < notasAluno.length; c++){
+        nota += notasAluno[c];
+    }
+
+    media = nota / 4;
+
+    if(media >=7){
+        resultado = "Aprovado";
+    } else {
+        resultado = "Reprovado";
+    }
+
+    console.log("Media: " + media + " - " + resultado)
+}
