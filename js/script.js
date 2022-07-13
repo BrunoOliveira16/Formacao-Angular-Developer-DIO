@@ -1,3 +1,4 @@
+// Função utilizada no arquivo Index
 function obterMedia(){
 
     var a = parseInt(document.getElementById("a").value);
@@ -28,35 +29,67 @@ function MediaNota(){
     document.getElementById("exibicao").innerHTML = "Media: " + media + " - " + resultado;
 }
 
-// Script para cálculo de média com estrutura de repetição //
 
-var alunos =  [
-    [6, 7, 8, 7]
-    [5, 6, 8, 5]
-    [10, 9, 10, 10]
-    [8, 7, 9, 9]
-]
+function calcularMedia( notas ) {
 
-var nota = 0
-
-for (var i = 0; i = alunos.length; i++){
-
-    nota = 0
-    notasAluno = alunos[i]
-    console.log("Aluno: " + parseInt(i+1));
-    console.log("Nota: " + notasAluno);
-
-    for(c = 0; c < notasAluno.length; c++){
-        nota += notasAluno[c];
+    let soma = 0;
+    for( c = 0; c < notas.length; c++) {
+        soma += notas[c];
     }
 
-    media = nota / 4;
+    media = soma / notas.length;
 
-    if(media >=7){
-        resultado = "Aprovado";
-    } else {
-        resultado = "Reprovado";
-    }
+    return media;
 
-    console.log("Media: " + media + " - " + resultado)
 }
+
+let media; // escopo global
+
+function aprovacao( notas ) {
+
+    let media = calcularMedia( notas ); // escopo da função
+
+    let condicao = media >= 8 ? "aprovado" : "reprovado";
+
+    return 'Média: ' + media + ' - Resultado: ' + condicao;
+
+}
+
+
+// Função Recursivas
+
+function contagemRegressiva(numero){
+
+    console.log(numero);  
+    
+    let proximoNumero = numero - 1;
+
+    if(proximoNumero > 0)
+        contagemRegressiva(proximoNumero);
+
+}
+
+// contagemRegressiva(50);
+document.addEventListener('submit', function(evento){
+
+    evento.preventDefault();
+    evento.stopImmediatePropagation(); // só posso controlar o evento apartir do listener
+
+    let formulario = document.getElementById('formulario-00'); //chamando o formulario
+    let dados = new FormData(formulario); // metodo para capturar dados
+    let objeto = {} // toda vez que os dados forem submetidos ela sera zerada
+    let notas = [];
+
+    for (let key of dados.keys()){
+        objeto [key] = dados.get(key); //laço para pegar os valores do objeto
+                                      // a key serve para obter os dados
+        notas.push( parseInt(dados.get(key))); // metodo para adicionar itens no array
+    }                                 
+
+    console.log(notas);
+    console.log(objeto); // somente para visualizar no console oque acontece
+
+    document.getElementById('resultado').innerHTML = aprovacao(notas)
+    
+});
+

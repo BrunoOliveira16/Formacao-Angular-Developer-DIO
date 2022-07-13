@@ -16,7 +16,7 @@
     text-align: center;
 }
 
-.container-01 p, #exibicao {
+.container-01 p, #exibicao, #resultado {
     font-size: 1.4rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
@@ -25,7 +25,7 @@
     text-align: center;
 }
 
-.caixa, #exibicao {
+.caixa, #exibicao, #resultado {
     width: 70%;
     height: auto;
     margin: 10px auto 10px auto;
@@ -60,7 +60,7 @@ button p {
     line-height: 2rem !important;
 }
 
-#exibicao {
+#exibicao, #resultado {
     background-color: rgb(8, 107, 8);
     border-radius: 20px;
     border: 2px solid white;
