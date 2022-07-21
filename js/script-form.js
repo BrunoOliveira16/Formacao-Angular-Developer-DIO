@@ -7,24 +7,7 @@ document.getElementById('formulario-02').addEventListener('submit', function(eve
     evento.preventDefault();
     evento.stopPropagation();
 
-    if(this.getAttribute('class').match(/erro/)){
-        return false;
-    }
-
-    let dados = new FormData(this);
-
-    let notas = [];
-
-    for(let key of dados.key()) {
-
-        let numero = dados.get(key).match(/\d*/) ? Number(dados.get(key)) : 0;
-
-        if(!isNaN(numero)) {
-            notas.push(numero);
-        }
-
-    }
-
+    console.log(evento)
     document.getElementById('resultado-01').innerHTML = "Seu Cadastro foi enviado";
 
 });
