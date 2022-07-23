@@ -77,7 +77,7 @@ document.addEventListener('submit', function(evento){
 
     let formulario = document.getElementById('formulario-00'); //chamando o formulario
     let dados = new FormData(formulario); // metodo para capturar dados
-    let objeto = {} // toda vez que os dados forem submetidos ela sera zerada
+    let objeto = {}; // toda vez que os dados forem submetidos ela sera zerada
     let notas = [];
 
     for (let key of dados.keys()){

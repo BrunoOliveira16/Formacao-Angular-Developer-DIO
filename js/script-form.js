@@ -36,7 +36,9 @@ function validaCampo(elemento){
 
 }
 
-
+/*
+* Função para validar campo CEP
+*/
 function validaCEP(elemento){
 
     elemento.addEventListener('focusout', function(event){
@@ -50,7 +52,7 @@ function validaCEP(elemento){
             this.classlist.remove('.erro');
             this.parentNode.classlist.remove('.erro');
         } else {
-            document.querySelector('.mensagem').innerHTML = "CEP inválido, favor digitar novamente";
+            document.querySelector('.mensagem').innerHTML = "CEP inválido, favor digite novamente Ex. XXXXX-XXX";
             this.classlist.add('.erro');
             this.parentNode.classlist.add('.erro');
             return false;
@@ -59,6 +61,9 @@ function validaCEP(elemento){
 
 }
 
+/*
+* Função para validar campo e-mail
+*/
 function validaEmail(elemento){
 
     elemento.addEventListener('focusout', function(event) {
@@ -80,6 +85,9 @@ function validaEmail(elemento){
     });
 }
 
+/*
+* Função para validar estado
+*/
 function validaUf(elemento){
 
     elemento.addEventListener('focusout', function(event){
@@ -92,7 +100,7 @@ function validaUf(elemento){
             this.classlist.remove('.erro');
             this.parentNode.classlist.remove('.erro');
         } else {
-            document.querySelector('.mensagem').innerHTML = "Estado incorreto, favor digitar novamente";
+            document.querySelector('.mensagem').innerHTML = "Estado incorreto, favor digitar novamente. EX: RJ";
             this.classlist.add('.erro');
             this.parentNode.classlist.add('.erro');
             return false;
