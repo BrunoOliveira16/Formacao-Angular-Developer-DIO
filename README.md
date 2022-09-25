@@ -1,2 +1,26 @@
-# JavaScript-Academico
-Repositorio para estudos e resolução de exercicios academicos relacionados a aplicação da linguagem JavaScript e utilização de HTML e CSS.
+## 📝 JavaScript-academico
+Repositório de estudo da linguagem JavaScript, com diversos conteúdos de exercicios e teorias.
+
+## 📚 Descrição
+
+Lista de organização da divisão dos conteúdos de JavaScript:
+
+- **JavaScript Básico:** Aborda os módulos 12, 13 e 14 do curso desenvolvimento full stack da EBAC;
+- Conteúdo dos módulos:
+---
+- Módulo 12: Lógica de programação, Variáveis e operadores;
+- Módulo 13: Condicionais, Funções e Funções Recursivas;
+- Módulo 14: DOM, seletores e formulários;
+---
+
+- **JavaScript Avançado:** Aborda os módulos 25 e 26 do curso desenvolvimento full stack da EBAC;
+- Conteúdo dos módulos:
+---
+- Módulo 25: Objetos, Classes, Replace, match, regex e arrow functions;
+---
+
+## 🙋🏻‍♂️ Autor
+
+Bruno Oliveira
+
+em construção...
