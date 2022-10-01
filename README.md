@@ -3,7 +3,7 @@ Repositório de estudo da linguagem JavaScript, com diversos conteúdos de exerc
 
 ## 📚 Descrição
 
-Lista de organização da divisão dos conteúdos de JavaScript:
+Lista de organização da divisão dos conteúdos dos módulos de JavaScript da EBAC:
 
 - **JavaScript Básico:** Aborda os módulos 12, 13 e 14 do curso desenvolvimento full stack da EBAC;
 - Conteúdo dos módulos:
