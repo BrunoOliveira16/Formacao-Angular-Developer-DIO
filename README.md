@@ -23,4 +23,3 @@ Lista de organização da divisão dos conteúdos dos módulos de JavaScript da 
 
 Bruno Oliveira
 
-em construção...
