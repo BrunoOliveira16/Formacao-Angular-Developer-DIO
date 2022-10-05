@@ -1,0 +1,67 @@
+.container-01 {
+    background-color: rgb(14, 138, 86);
+    width: 35%;
+    height: auto;
+    padding: 20px;
+    display: block;
+    margin: 10px auto 10px auto;
+}
+
+.container-01 h3 {
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    line-height: 1rem;
+    margin: 0;
+    text-align: center;
+}
+
+.container-01 p, #exibicao, #resultado {
+    font-size: 1.4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    line-height: 3rem;
+    margin: 0;
+    text-align: center;
+}
+
+.caixa, #exibicao, #resultado {
+    width: 70%;
+    height: auto;
+    margin: 10px auto 10px auto;
+}
+
+.caixa input {
+    width: 100%;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.caixa label {
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    line-height: 3rem;
+}
+
+button {
+    width: 70%;
+    height: auto;
+    margin: 30px auto 30px auto;
+    display: flex;
+    align-content: center;
+    font-size: 1.4rem;
+}
+
+button p {
+    color: black !important;
+    font-size: 1.3rem !important;
+    margin: 1px auto 1px auto !important;
+    line-height: 2rem !important;
+}
+
+#exibicao, #resultado {
+    background-color: rgb(8, 107, 8);
+    border-radius: 20px;
+    border: 2px solid white;
+}
