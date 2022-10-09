@@ -17,6 +17,7 @@ Lista de organização da divisão dos conteúdos dos módulos de JavaScript da 
 - Conteúdo dos módulos:
 
 - Módulo 25: Objetos, Classes, Replace, match, regex e arrow functions;
+- Módulo 26: Exports, Imports, Manipulação de arrays, TypeScript;
 ---
 
 ## 🙋🏻‍♂️ Autor
