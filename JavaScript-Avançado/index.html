@@ -7,9 +7,27 @@
     <title>javascript</title>
 </head>
 <body>
-    <script src="./exams.js" type="module"></script>
-    <div id="main">
-        
+    
+    <div id="main"></div>
+
+    <div id="app">
+        {{ message }}
+        Meu nome é {{ nome }}
     </div>
+
+    <!-- <script src="./exams.js" type="module"></script> -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+        const { createApp } = Vue
+      
+        createApp({
+          data() {
+            return {
+              message: 'Hello Vue!',
+              nome: 'Bruno Oliveira'
+            }
+          }
+        }).mount('#app')
+      </script>
 </body>
 </html>
