@@ -52,18 +52,25 @@ let games = [
     },
 ];
 
-//Utilizando método filter para filtrar um array de objetos através de valor específico
-let filterGames = games.filter ((games) => {
-    return games.genero === 'Luta'
-})
 
+//Utilizando método filter para filtrar um array de objetos através de valor específico
+let filterGames = games.filter ((element => {
+    return element.genero === 'Luta'
+}));
 console.log(filterGames);
+
+//Utilizando método forEach para filtrar elemento especifico de um array de objetos
+let toPrint = ''
+filterGames.forEach(titulo => {
+    toPrint += titulo.titulo
+});
+console.log(toPrint);
+
 
 //Utilizando método Map para unir valores de um array de objetos
 let generos = games.map((element => {   
     return `${element.titulo} jogo de ${element.genero} lançado em ${element.ano}`;
 }));
-
 console.log(generos);
 
 
@@ -71,5 +78,11 @@ console.log(generos);
 let Total = games.reduce((prev, next) => {
    return {preco: prev.preco + next.preco}
 });
-
 console.log(Total)
+
+//Utilizando método reduce para contar os valores de um objetos especifico dentro de um array
+const contagem = games.reduce((cont, plataform) => {
+    cont[plataform.plataforma] = (cont[plataform.plataforma] || 0) + 1;
+    return cont;
+}, {})
+console.log(contagem)
