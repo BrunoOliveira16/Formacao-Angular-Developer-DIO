@@ -1,0 +1,75 @@
+let games = [
+    {
+        id: 1,
+        titulo: 'God of War',
+        plataforma: ['Playstation', 'PC'],
+        genero: 'Ação',
+        ano: '2018',
+        publisher: 'Santa Monica Studios',
+        online: 'Não',
+        preco: 299.99
+
+    },
+    {
+        id: 2,
+        titulo: 'Red Dead Redemption 2',
+        plataforma: ['Playstation', 'PC', 'X-Box One'],
+        genero: 'Ação',
+        ano: '2018',
+        publisher: 'Rockstar',
+        online: 'sim',
+        preco: 299.99
+    },
+    {
+        id: 3,
+        titulo: 'Gears 5',
+        plataforma: ['PC', 'X-Box One'],
+        genero: 'Tiro Terceira pessoa',
+        ano: '2019',
+        publisher: 'The Coalition',
+        online: 'sim',
+        preco: 199.99
+    },
+    {
+        id: 4,
+        titulo: 'Resident Evil 2',
+        plataforma: ['Playstation', 'PC', 'X-Box One'],
+        genero: 'Survival Horror',
+        ano: '2019',
+        publisher: 'Capcom',
+        online: 'sim',
+        preco: 249.99
+    },
+    {
+        id: 5,
+        titulo: 'Mortal Kombat 11',
+        plataforma: ['Playstation', 'PC', 'X-Box One'],
+        genero: 'Luta',
+        ano: '2019',
+        publisher: 'NetherRealm Studios',
+        online: 'sim',
+        preco: 249.99
+    },
+];
+
+//Utilizando método filter para filtrar um array de objetos através de valor específico
+let filterGames = games.filter ((games) => {
+    return games.genero === 'Luta'
+})
+
+console.log(filterGames);
+
+//Utilizando método Map para unir valores de um array de objetos
+let generos = games.map((element => {   
+    return `${element.titulo} jogo de ${element.genero} lançado em ${element.ano}`;
+}));
+
+console.log(generos);
+
+
+//Utilizando método reduce para somar os valores de um array de objetos
+let Total = games.reduce((prev, next) => {
+   return {preco: prev.preco + next.preco}
+});
+
+console.log(Total)
