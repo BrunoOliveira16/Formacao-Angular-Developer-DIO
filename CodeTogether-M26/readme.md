@@ -9,8 +9,19 @@
 - Verificar os scripts disponíveis no diretório src/basico
 - Usar documentação de referência: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide
 
-## Ao Finalizar...
+## 💻 Ao Finalizar...
 - Adicionar o código gerado em algum repositório público
 - Enviar link no portal da EBAC, para avaliação
 
 - código para teste: node ./CodeTogether-M26/src/metodos.js
+
+## 💻 Instalando o Projeto React
+- Acessar a pasta no terminal: CodeTogether-M26\react-M26>
+- Efetuar o comando para instalação:
+```
+npm install
+```
+- Executar o projeto:
+```
+npm start
+```
