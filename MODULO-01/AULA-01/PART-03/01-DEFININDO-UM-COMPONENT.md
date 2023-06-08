@@ -58,3 +58,5 @@ Após importamos o componente, colocamos nossa tag html criada ``<card-news></ca
     <card-news></card-news>
 </body>
 ```
+
+Todo o conteúdo está localizado na pasta ``web-component`` que pode ser acessada <a href="../web-component">clicando aqui</a>.

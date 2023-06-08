@@ -1,3 +1,10 @@
+## Web Component
+Neste projeto, criamos components reutilizáveis com javaScript, simulando a forma como um framework como React trabalha e tornando a aplicação dinâmica e deixando seu código isolado e fácil de manter.
+
+<img src="./images/screenshot-01.jpg" alt="imagem do projeto">
+
+Exemplo no documento HTML:
+```
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -39,3 +46,4 @@
     </main>
 </body>
 </html>
+```

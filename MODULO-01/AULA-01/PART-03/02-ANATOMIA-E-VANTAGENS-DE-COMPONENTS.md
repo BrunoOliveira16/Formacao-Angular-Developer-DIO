@@ -1,0 +1,7 @@
+## 📝 Aula 01: Trabalhando com Web Components no Front-end
+### Anatomia e vantagens de components
+Web Components é uma suíte de diferentes tecnologias que permite a criação de elementos customizados reutilizáveis com a funcionalidade separada do resto do seu código e que podem ser utilizados em suas aplicações web. Eles são formados por três tecnologias principais: Elementos customizados, Shadow DOM e Templates HTML.
+
+Os elementos customizados são um conjunto de APIs JavaScript que permite definir elementos customizados e seus respectivos comportamentos. O Shadow DOM é um conjunto de APIs JavaScript para incorporar uma árvore DOM “fantasma” encapsulada a um elemento. Os Templates HTML são os elementos ``<template>`` e ``<slot>`` que permitem que você escreva templates de marcação que não são exibidas na página.
+
+Algumas das vantagens de usar Web Components incluem reutilização, encapsulamento e produtividade1. Eles permitem que você crie elementos customizados que podem ser reutilizados em diferentes partes da sua aplicação ou mesmo em diferentes aplicações. Além disso, o encapsulamento garante que o comportamento e o estilo dos componentes não entrem em conflito com o resto do código da sua aplicação. Isso pode aumentar a produtividade ao reduzir a quantidade de código que precisa ser escrito e testado.
