@@ -1,8 +1,0 @@
-{
-  "devDependencies": {
-    "typescript": "^4.8.4"
-  },
-  "dependencies": {
-    "jslinter": "^1.5.47"
-  }
-}
