@@ -1,0 +1,15 @@
+{
+  "name": "primeiro-projeto",
+  "version": "1.0.0",
+  "description": "instalando typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsc && node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bruno Oliveira",
+  "license": "ISC",
+  "devDependencies": {
+    "typecript": "^0.0.1-security"
+  }
+}
