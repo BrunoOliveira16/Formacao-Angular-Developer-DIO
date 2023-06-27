@@ -7,7 +7,7 @@ O módulo principal “Fundamentos de Front-end Componentizados” abrange duas 
 Descrição das aulas do módulo:
 - Aula 01: Trabalhando com Web Components no Front-end;
 - Aula 02: Typescript para Angular;
-- Desafios de código - Javascript Básico;
+- Desafios Iniciais JavaScript - Formação Angular;
 
 <br>
 
@@ -43,3 +43,12 @@ Nesta aula com duração de 3 horas iremos abordar os seguintes temas: Introduç
 - TS Node Dev: Aqui, será apresentado o TS Node Dev, uma ferramenta que permite executar código TypeScript diretamente sem precisar compilá-lo primeiro.
 
 - Decorators: Nesta seção final, será discutido como usar decorators no TypeScript para adicionar comportamento adicional a classes e métodos.
+
+<br>
+
+### Desafios Iniciais JavaScript - Formação Angular
+- Desafio 01: Entrada e Saída Lendo e Pulando Nomes
+
+- Desafio 02: Coordenadas de um Ponto
+
+- Desafio 03: A idade de Magali
