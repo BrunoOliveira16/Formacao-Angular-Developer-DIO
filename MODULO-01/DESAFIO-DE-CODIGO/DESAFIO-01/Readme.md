@@ -1,4 +1,4 @@
-## Desafio 01 - Entrada e Saída Lendo e Pulando Nomes
+## 🏆 Desafio 01 - Entrada e Saída Lendo e Pulando Nomes
 Faça um programa com as características abaixo:
 
 - Leia 10 nomes, sem espaço em branco;
