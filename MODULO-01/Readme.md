@@ -1,48 +1,48 @@
 ## 📌 Módulo 01 - Fundamentos de Front-end Componentizados
-O módulo principal “Fundamentos de Front-end Componentizados” abrange duas aulas: “Trabalhando com Web Components no Front-end” e “TypeScript”. Na primeira aula, os alunos aprenderão sobre os pré-requisitos necessários para o curso, os fundamentos de Web Components, incluindo a diferença entre Elements e Web Components, o papel do HTML e CSS, o entendimento do DOM e Shadow DOM e como consultar o site “CAN I USE”. Além disso, os alunos terão a oportunidade de criar um componente na prática com JavaScript. Na segunda aula, os alunos aprenderão sobre TypeScript, incluindo como instalá-lo, como definir tipos para variáveis e funções, como usar funções, interfaces, classes e generics. Também serão abordados tópicos como TS Node Dev e decorators. Este módulo fornece uma base sólida para o desenvolvimento de front-end componentizado.
+O Módulo 01 - Fundamentos de Front-end Componentizados é composto por dois cursos que abordam temas importantes para o desenvolvimento de aplicações front-end com Angular. O primeiro curso, “Trabalhando com Web Components no Front-end”, apresenta os fundamentos e a criação de componentes. O segundo curso, “Typescript para Angular”, aborda a instalação e uso do TypeScript, incluindo tipos, funções, interfaces, classes, generics, TS Node Dev e decorators. Por fim, “Desafios Iniciais JavaScript - Formação Angular” oferece desafios para praticar os conhecimentos em javascript.
 
 <br>
 
 ## 📎 Sumário
-Descrição das aulas do módulo:
-- Aula 01: Trabalhando com Web Components no Front-end;
-- Aula 02: Typescript para Angular;
+Descrição dos cursos do módulo:
+- Curso 01: Trabalhando com Web Components no Front-end;
+- Curso 02: Typescript para Angular;
 - Desafios Iniciais JavaScript - Formação Angular;
 
 <br>
 
-## 💻 Resumo dos contéudos das aulas
-### Aula 01 Trabalhando com Web Components no Front-end
-Nesta aula com duração de 3 horas iremos abordar os seguintes temas: Introdução e pré-requisitos, fundamentos e criando componentes.
+## 💻 Resumo dos contéudos dos cursos
+### Curso 01 Trabalhando com Web Components no Front-end
+Neste curso com duração de 3 horas iremos abordar os seguintes temas: 
 
-- Introdução e pré-requisitos: iremos conhecer o pré-requisitos necessários para estar realizando o curso da melhor forma possível.
+- Introdução e pré-requisitos
 
-- Fundamentos: Nesta parte será abordado fundamentos como a diferenças entre Elements e Web Components, o papel do HTML e CSS, entendendo o DOM, Shadow DOM e consultas ao CAN I USE.
+- Fundamentos
 
-- Criando componentes: Nesta etapa será criado um componente na prática com javaScript, abordando conceitos sobre web components.
+- Criando componentes
 
 <br>
 
-### Aula 02 Typescript para Angular
-Nesta aula com duração de 3 horas iremos abordar os seguintes temas: Introdução, Instalando Typescript, Tipos no typescript, funções, interfaces, classes, generics, ts node dev e decorators.
+### Curso 02 Typescript para Angular
+Neste curso com duração de 3 horas iremos abordar os seguintes temas: 
 
-- Introdução: Nesta seção, será apresentada uma visão geral do TypeScript e de como ele pode ser útil para o desenvolvimento de aplicações.
+- Introdução
 
-- Instalando TypeScript: Aqui, serão fornecidas instruções passo a passo sobre como instalar o TypeScript em seu computador.
+- Instalando TypeScript
 
-- Tipos no TypeScript: Nesta seção, será discutido como o TypeScript permite a definição de tipos para variáveis e funções, ajudando a prevenir erros comuns de programação.
+- Tipos no TypeScript
 
-- Funções: Aqui, será mostrado como definir e usar funções no TypeScript, incluindo como especificar os tipos de seus parâmetros e valores de retorno.
+- Funções
 
-- Interfaces: Nesta seção, será discutido como usar interfaces no TypeScript para definir contratos para objetos e garantir que eles sigam uma estrutura específica.
+- Interfaces
 
-- Classes: Aqui, será mostrado como usar classes no TypeScript para criar objetos com propriedades e métodos específicos.
+- Classes
 
-- Generics: Nesta seção, será discutido como usar generics no TypeScript para criar código reutilizável que pode trabalhar com diferentes tipos de dados.
+- Generics
 
-- TS Node Dev: Aqui, será apresentado o TS Node Dev, uma ferramenta que permite executar código TypeScript diretamente sem precisar compilá-lo primeiro.
+- TS Node Dev
 
-- Decorators: Nesta seção final, será discutido como usar decorators no TypeScript para adicionar comportamento adicional a classes e métodos.
+- Decorators
 
 <br>
 
